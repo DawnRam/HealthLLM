@@ -1,0 +1,17 @@
+[
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following 7-days averaged data, predict the Stress Resilience Index (SRI) between 0.2 and 5. [Stress Score]: [61.0, 61.0, 58.0] out of 100, [Positive Affect Score]: 18 out of 50, [Negative Affect Score]: 28 out of 50, [Lightly Active Minutes]: [78.0, 307.0, 82.0], [Moderately Active Minutes]: [0.0, 0.0, 8.0], [Very Active Minutes]: [0.0, 0.0, 6.0], [Sleep Efficiency]: [87.0, 89.0, 96.0], [Sleep Deep Ratio]: [0.618421052631579, 1.3333333333333333, 0.9078947368421053], [Sleep Light Ratio]: [0.33476394849785407, 1.3066666666666666, 1.0131004366812226], [Sleep REM Ratio]: [0.3950617283950617, 0.7215189873417721, 0.974025974025974].",
+        "output": "0.64"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following 7-days averaged data, predict the Stress Resilience Index (SRI) between 0.2 and 5. [Stress Score]: [-1] out of 100, [Positive Affect Score]: 27 out of 50, [Negative Affect Score]: 16 out of 50, [Lightly Active Minutes]: [-1], [Moderately Active Minutes]: [-1], [Very Active Minutes]: [-1], [Sleep Efficiency]: [-1], [Sleep Deep Ratio]: [-1], [Sleep Light Ratio]: [-1], [Sleep REM Ratio]: [-1].",
+        "output": "1.69"
+    },
+    {
+        "instruction": "Answer this question truthfully",
+        "input": "Given the following 7-days averaged data, predict the Stress Resilience Index (SRI) between 0.2 and 5. [Stress Score]: [66.0, 73.0, 80.0, 63.0, 69.0] out of 100, [Positive Affect Score]: 34 out of 50, [Negative Affect Score]: 40 out of 50, [Lightly Active Minutes]: [164.0, 149.0, 154.0, 248.0, 301.0], [Moderately Active Minutes]: [0.0, 8.0, 4.0, 8.0, 13.0], [Very Active Minutes]: [0.0, 7.0, 9.0, 5.0, 5.0], [Sleep Efficiency]: [91.0, 93.0, 93.0, 93.0, 89.0], [Sleep Deep Ratio]: [1.0129870129870129, 0.961038961038961, 1.025974025974026, 0.8051948051948052, 0.9210526315789473], [Sleep Light Ratio]: [0.9162995594713657, 1.2, 0.9563318777292577, 0.8508771929824561, 1.2222222222222223], [Sleep REM Ratio]: [0.8658536585365854, 0.9259259259259259, 1.1153846153846154, 0.8607594936708861, 0.7307692307692307].",
+        "output": "0.85"
+    }
+]

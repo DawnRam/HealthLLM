@@ -1,0 +1,17 @@
+[
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13580.7857142857. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.6153846153846, 0.0769230769230769, 465.615384615385, 16.5384615384615, 0.0 mins in average; What would be the PHQ-4 482.230769230769 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10882.6153846154. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.1538461538462, 0.461538461538462, 427.153846153846, 36.6923076923077, 0.0 mins in average; What would be the PHQ-4 464.846153846154 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13975.5714285714. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.1666666666667, 0.416666666666667, 434.833333333333, 39.5833333333333, 0.0 mins in average; What would be the PHQ-4 474.833333333333 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    }
+]

@@ -1,0 +1,912 @@
+[
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10635.9230769231. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.4615384615385, 0.153846153846154, 429.384615384615, 20.6153846153846, 0.0 mins in average; What would be the PHQ-4 450.153846153846 score?",
+        "output": "The predicted PHQ-4 anxiety score is 4."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12163.6428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.4285714285714, 1.71428571428571, 456.428571428571, 37.7857142857143, 0.0 mins in average; What would be the PHQ-4 496.428571428571 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8491.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.1333333333333, 0.4, 328.733333333333, 15.7333333333333, 0.0 mins in average; What would be the PHQ-4 345.2 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9828.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.5714285714286, 0.142857142857143, 338.785714285714, 20.1428571428571, 0.0 mins in average; What would be the PHQ-4 359.357142857143 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8107.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.9285714285714, 2.85714285714286, 357.214285714286, 25.9285714285714, 0.0 mins in average; What would be the PHQ-4 386.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10327.875. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.8333333333333, 1.83333333333333, 399.833333333333, 22.6666666666667, 0.0 mins in average; What would be the PHQ-4 424.333333333333 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12497.4285714286. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.0, 0.307692307692308, 373.461538461538, 14.0769230769231, 0.0 mins in average; What would be the PHQ-4 387.846153846154 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11333.3333333333. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.8, 1.7, 518.3, 40.1, 0.0 mins in average; What would be the PHQ-4 560.1 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8644.83333333333. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.8333333333333, 1.5, 457.166666666667, 19.6666666666667, 0.0 mins in average; What would be the PHQ-4 478.333333333333 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 4305.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.0, 2.5, 468.5, 20.5, 0.0 mins in average; What would be the PHQ-4 491.5 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11295.3846153846. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.4444444444444, 0.666666666666667, 391.444444444444, 17.6666666666667, 0.0 mins in average; What would be the PHQ-4 409.777777777778 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12345.7857142857. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.4285714285714, 0.642857142857143, 399.571428571429, 23.5, 0.0 mins in average; What would be the PHQ-4 424.357142857143 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 6919.77777777778. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.0, 1.16666666666667, 386.0, 34.1666666666667, 0.0 mins in average; What would be the PHQ-4 421.333333333333 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13282.0714285714. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.5, 0.0714285714285714, 394.785714285714, 19.5, 0.0 mins in average; What would be the PHQ-4 415.357142857143 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 7087.33333333333. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.5, 0.0, 498.333333333333, 15.8333333333333, 0.0 mins in average; What would be the PHQ-4 514.166666666667 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8701.83333333333. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.1666666666667, 0.166666666666667, 608.166666666667, 40.0, 0.0 mins in average; What would be the PHQ-4 649.833333333333 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12161.9285714286. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.0, 0.846153846153846, 370.230769230769, 29.7692307692308, 0.0 mins in average; What would be the PHQ-4 400.846153846154 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 19450.6666666667. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 88.0, 0.5, 451.0, 59.5, 0.0 mins in average; What would be the PHQ-4 511.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 16247.5714285714. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.6428571428571, 0.0714285714285714, 437.0, 23.7142857142857, 0.0 mins in average; What would be the PHQ-4 461.928571428571 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10696.7857142857. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 90.5714285714286, 0.142857142857143, 473.285714285714, 49.2142857142857, 0.0 mins in average; What would be the PHQ-4 522.642857142857 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13388.3333333333. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.5, 1.5, 389.0, 17.8333333333333, 0.0 mins in average; What would be the PHQ-4 408.333333333333 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 17623.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 91.0714285714286, 0.642857142857143, 330.071428571429, 32.7142857142857, 0.0 mins in average; What would be the PHQ-4 364.428571428571 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8623.57142857143. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.6363636363636, 0.727272727272727, 357.272727272727, 20.2727272727273, 0.0 mins in average; What would be the PHQ-4 378.272727272727 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12507.3571428571. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.2307692307692, 0.0769230769230769, 397.615384615385, 18.8461538461538, 0.0 mins in average; What would be the PHQ-4 416.846153846154 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 7268.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 86.0, 4.0, 395.0, 66.0, 0.0 mins in average; What would be the PHQ-4 465.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 7105.71428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.2857142857143, 0.571428571428571, 464.071428571429, 23.7857142857143, 0.0 mins in average; What would be the PHQ-4 488.428571428571 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9816.71428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.5, 0.714285714285714, 401.142857142857, 27.5714285714286, 0.0 mins in average; What would be the PHQ-4 429.571428571429 score?",
+        "output": "The predicted PHQ-4 anxiety score is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9323.21428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 97.8461538461538, 0.0, 423.384615384615, 10.2307692307692, 0.0 mins in average; What would be the PHQ-4 434.230769230769 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 6206.92307692308. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.6153846153846, 1.38461538461538, 509.538461538462, 17.0, 0.0 mins in average; What would be the PHQ-4 527.923076923077 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13978.9285714286. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.7857142857143, 1.5, 407.928571428571, 26.9285714285714, 0.0 mins in average; What would be the PHQ-4 436.357142857143 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8227.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.0714285714286, 1.71428571428571, 525.285714285714, 46.8571428571429, 0.0 mins in average; What would be the PHQ-4 573.857142857143 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10304.6666666667. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 97.0, 0.0, 535.0, 16.0, 0.0 mins in average; What would be the PHQ-4 551.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9576.85714285714. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 97.0714285714286, 0.0, 396.214285714286, 12.2857142857143, 0.0 mins in average; What would be the PHQ-4 408.5 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 18101.7857142857. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 97.2857142857143, 0.0714285714285714, 483.285714285714, 13.3571428571429, 0.0 mins in average; What would be the PHQ-4 496.928571428571 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8502.75. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 97.6666666666667, 1.66666666666667, 352.333333333333, 8.33333333333333, 0.0 mins in average; What would be the PHQ-4 362.333333333333 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12317.2307692308. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.4615384615385, 0.230769230769231, 396.846153846154, 27.8461538461538, 0.0 mins in average; What would be the PHQ-4 425.615384615385 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12001.6428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.2142857142857, 0.0, 443.714285714286, 32.0714285714286, 0.0 mins in average; What would be the PHQ-4 475.785714285714 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9679.83333333333. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.9090909090909, 1.18181818181818, 407.818181818182, 33.2727272727273, 0.0 mins in average; What would be the PHQ-4 442.272727272727 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9776.125. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.0, 0.166666666666667, 508.833333333333, 38.6666666666667, 0.0 mins in average; What would be the PHQ-4 547.666666666667 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9794.35714285714. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 97.3571428571429, 0.0, 403.071428571429, 11.0, 0.0 mins in average; What would be the PHQ-4 414.071428571429 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12290.6428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 91.4615384615385, 1.15384615384615, 461.461538461538, 41.3076923076923, 0.0 mins in average; What would be the PHQ-4 503.923076923077 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9941.57142857143. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.6666666666667, 0.0833333333333333, 456.083333333333, 36.5, 0.0 mins in average; What would be the PHQ-4 492.666666666667 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 7535.42857142857. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.9285714285714, 1.35714285714286, 473.714285714286, 20.6428571428571, 0.0 mins in average; What would be the PHQ-4 495.714285714286 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13949.4. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.6, 0.2, 471.2, 22.2, 0.0 mins in average; What would be the PHQ-4 493.6 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11495.7857142857. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.1538461538462, 0.538461538461538, 411.076923076923, 29.1538461538462, 0.0 mins in average; What would be the PHQ-4 440.769230769231 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 17200.0769230769. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 89.6153846153846, 0.0, 428.923076923077, 50.0, 0.0 mins in average; What would be the PHQ-4 478.923076923077 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8266.28571428571. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.0769230769231, 0.538461538461538, 464.769230769231, 18.4615384615385, 0.0 mins in average; What would be the PHQ-4 483.769230769231 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8641.28571428571. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.0769230769231, 0.153846153846154, 389.461538461538, 20.8461538461538, 0.0 mins in average; What would be the PHQ-4 410.461538461538 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10742.5714285714. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.2142857142857, 0.0, 365.285714285714, 29.7857142857143, 0.0 mins in average; What would be the PHQ-4 396.571428571429 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8891.28571428571. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.8571428571429, 0.571428571428571, 479.0, 36.1428571428571, 0.0 mins in average; What would be the PHQ-4 515.714285714286 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12533.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.1538461538462, 0.846153846153846, 486.615384615385, 26.6153846153846, 0.0 mins in average; What would be the PHQ-4 514.076923076923 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9472.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.0, 0.0, 393.0, 21.0, 0.0 mins in average; What would be the PHQ-4 414.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13728.4285714286. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.9285714285714, 0.0714285714285714, 410.142857142857, 27.0, 0.0 mins in average; What would be the PHQ-4 437.214285714286 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 7990.75. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.3333333333333, 1.0, 335.666666666667, 13.3333333333333, 0.0 mins in average; What would be the PHQ-4 350.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10770.1428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.7692307692308, 1.84615384615385, 454.769230769231, 35.2307692307692, 0.0 mins in average; What would be the PHQ-4 491.846153846154 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 14828.25. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 91.4285714285714, 1.0, 480.714285714286, 45.4285714285714, 0.0 mins in average; What would be the PHQ-4 527.142857142857 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 18527.8571428571. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.75, 2.58333333333333, 380.416666666667, 30.25, 0.0 mins in average; What would be the PHQ-4 413.75 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10591.75. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 97.6666666666667, 0.0, 433.666666666667, 10.5, 0.0 mins in average; What would be the PHQ-4 444.166666666667 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10729.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 90.0, 0.0, 344.0, 39.0, 0.0 mins in average; What would be the PHQ-4 383.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 6320.78571428571. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.2857142857143, 1.57142857142857, 427.0, 21.8571428571429, 0.0 mins in average; What would be the PHQ-4 450.428571428571 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 14976.9285714286. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 69.0769230769231, 3.23076923076923, 278.076923076923, 123.461538461538, 0.0 mins in average; What would be the PHQ-4 405.846153846154 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9881.45454545455. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.3636363636364, 0.0, 336.090909090909, 15.8181818181818, 0.0 mins in average; What would be the PHQ-4 352.272727272727 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11491.4285714286. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.2142857142857, 0.0714285714285714, 405.714285714286, 16.0714285714286, 0.0 mins in average; What would be the PHQ-4 423.857142857143 score?",
+        "output": "The predicted PHQ-4 anxiety score is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 14516.9230769231. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.0909090909091, 0.272727272727273, 434.454545454545, 37.0, 0.0 mins in average; What would be the PHQ-4 471.727272727273 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12607.2857142857. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.6666666666667, 1.41666666666667, 455.083333333333, 31.75, 0.0 mins in average; What would be the PHQ-4 488.833333333333 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 15515.2857142857. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.9230769230769, 0.0769230769230769, 467.307692307692, 14.8461538461538, 0.0 mins in average; What would be the PHQ-4 482.230769230769 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 15948.4285714286. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.7857142857143, 0.0, 467.928571428571, 25.4285714285714, 0.0 mins in average; What would be the PHQ-4 493.357142857143 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12443.3571428571. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.3846153846154, 0.230769230769231, 422.384615384615, 32.1538461538462, 0.0 mins in average; What would be the PHQ-4 454.769230769231 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12253.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.5, 0.0, 448.666666666667, 26.8333333333333, 0.0 mins in average; What would be the PHQ-4 475.5 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9838.91666666667. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.9090909090909, 0.727272727272727, 471.636363636364, 19.6363636363636, 0.0 mins in average; What would be the PHQ-4 492.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 5346.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.0, 0.0, 526.5, 26.5, 0.0 mins in average; What would be the PHQ-4 553.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10240.6428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.3571428571429, 0.428571428571429, 366.785714285714, 26.6428571428571, 0.0 mins in average; What would be the PHQ-4 394.285714285714 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10233.6428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 90.3571428571429, 0.142857142857143, 460.071428571429, 49.7142857142857, 0.0 mins in average; What would be the PHQ-4 512.5 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9189.42857142857. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.5384615384615, 1.0, 455.461538461538, 21.3076923076923, 0.0 mins in average; What would be the PHQ-4 477.769230769231 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8667.14285714286. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.0714285714286, 0.0714285714285714, 351.642857142857, 25.6428571428571, 0.0 mins in average; What would be the PHQ-4 377.357142857143 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12296.8571428571. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.1666666666667, 1.16666666666667, 398.083333333333, 26.0, 0.0 mins in average; What would be the PHQ-4 425.25 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10141.5714285714. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 64.1666666666667, 1.83333333333333, 207.666666666667, 132.166666666667, 0.0 mins in average; What would be the PHQ-4 342.166666666667 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13949.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 64.4285714285714, 4.92857142857143, 230.285714285714, 129.714285714286, 1.85714285714286 mins in average; What would be the PHQ-4 366.785714285714 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13420.1428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.6428571428571, 0.0714285714285714, 394.071428571429, 23.0, 0.0 mins in average; What would be the PHQ-4 417.142857142857 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11524.2857142857. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.3076923076923, 0.153846153846154, 478.461538461538, 19.1538461538462, 0.0 mins in average; What would be the PHQ-4 497.769230769231 score?",
+        "output": "The predicted PHQ-4 anxiety score is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11108.7272727273. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.7777777777778, 0.555555555555556, 397.0, 14.2222222222222, 0.0 mins in average; What would be the PHQ-4 411.777777777778 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 15721.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.5, 0.0, 383.5, 23.5, 0.0 mins in average; What would be the PHQ-4 407.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 6295.875. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.1666666666667, 0.166666666666667, 438.333333333333, 28.8333333333333, 0.0 mins in average; What would be the PHQ-4 467.333333333333 score?",
+        "output": "The predicted PHQ-4 anxiety score is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 5990.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.25, 0.0, 426.75, 16.5, 0.0 mins in average; What would be the PHQ-4 443.25 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 17059.6. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.8333333333333, 0.5, 266.0, 18.1666666666667, 0.0 mins in average; What would be the PHQ-4 284.666666666667 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11177.8. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.3333333333333, 0.0, 409.0, 24.7777777777778, 0.0 mins in average; What would be the PHQ-4 433.777777777778 score?",
+        "output": "The predicted PHQ-4 anxiety score is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11200.2857142857. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.0714285714286, 0.357142857142857, 450.071428571429, 28.5714285714286, 0.0 mins in average; What would be the PHQ-4 479.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 5194.14285714286. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 91.5, 2.16666666666667, 405.583333333333, 38.25, 0.0 mins in average; What would be the PHQ-4 446.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11820.1666666667. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 89.1818181818182, 0.545454545454545, 457.363636363636, 56.7272727272727, 0.0 mins in average; What would be the PHQ-4 514.636363636364 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8634.16666666667. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.6666666666667, 0.666666666666667, 411.833333333333, 22.8333333333333, 0.0 mins in average; What would be the PHQ-4 435.333333333333 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 15981.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 97.5, 0.0, 414.0, 10.5, 0.0 mins in average; What would be the PHQ-4 424.5 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11480.2857142857. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.5714285714286, 0.428571428571429, 437.928571428571, 20.0714285714286, 0.0 mins in average; What would be the PHQ-4 458.428571428571 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 6037.625. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.0, 0.142857142857143, 341.857142857143, 24.2857142857143, 0.0 mins in average; What would be the PHQ-4 366.285714285714 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8653.28571428571. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.2857142857143, 0.0, 355.571428571429, 20.0, 0.0 mins in average; What would be the PHQ-4 375.571428571429 score?",
+        "output": "The predicted PHQ-4 anxiety score is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 7914.07142857143. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.4615384615385, 0.153846153846154, 473.153846153846, 34.0769230769231, 0.0 mins in average; What would be the PHQ-4 507.923076923077 score?",
+        "output": "The predicted PHQ-4 anxiety score is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 18534.4285714286. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.5, 0.571428571428571, 404.714285714286, 19.0714285714286, 0.0 mins in average; What would be the PHQ-4 424.357142857143 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 6205.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 97.0, 0.0714285714285714, 389.142857142857, 11.6428571428571, 0.0 mins in average; What would be the PHQ-4 400.857142857143 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 19339.7857142857. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.0, 0.25, 380.833333333333, 27.9166666666667, 0.0 mins in average; What would be the PHQ-4 409.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10915.6666666667. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.6666666666667, 0.0, 299.666666666667, 19.6666666666667, 0.0 mins in average; What would be the PHQ-4 319.333333333333 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8111.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.4285714285714, 0.357142857142857, 474.928571428571, 17.9285714285714, 0.0 mins in average; What would be the PHQ-4 494.571428571429 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8528.78571428571. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.1428571428571, 0.5, 458.071428571429, 18.6428571428571, 0.0 mins in average; What would be the PHQ-4 477.214285714286 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9166.64285714286. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.3571428571429, 0.428571428571429, 449.285714285714, 32.2857142857143, 0.0 mins in average; What would be the PHQ-4 482.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12908.5833333333. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.7272727272727, 0.181818181818182, 419.545454545455, 27.8181818181818, 0.0 mins in average; What would be the PHQ-4 447.545454545455 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 14906.2142857143. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 62.8666666666667, 7.26666666666667, 244.666666666667, 143.933333333333, 0.0 mins in average; What would be the PHQ-4 395.866666666667 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10161.1111111111. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 90.3333333333333, 0.555555555555556, 440.444444444444, 47.2222222222222, 0.0 mins in average; What would be the PHQ-4 488.222222222222 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9969.76923076923. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.3, 0.8, 374.1, 24.2, 0.0 mins in average; What would be the PHQ-4 400.3 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 15353.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.4615384615385, 0.0769230769230769, 413.0, 23.8461538461538, 0.0 mins in average; What would be the PHQ-4 436.923076923077 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 4029.21428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.3571428571429, 0.428571428571429, 432.785714285714, 15.7142857142857, 0.0 mins in average; What would be the PHQ-4 448.928571428571 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 7759.58333333333. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.3636363636364, 0.363636363636364, 459.727272727273, 22.2727272727273, 0.0 mins in average; What would be the PHQ-4 483.636363636364 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 6312.78571428571. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 97.5714285714286, 0.0714285714285714, 384.785714285714, 8.85714285714286, 0.0 mins in average; What would be the PHQ-4 393.714285714286 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9661.22222222222. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.1111111111111, 1.11111111111111, 458.333333333333, 23.2222222222222, 0.0 mins in average; What would be the PHQ-4 482.666666666667 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 14061.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.5, 0.0, 434.0, 21.0, 0.0 mins in average; What would be the PHQ-4 455.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11866.4285714286. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.0, 0.142857142857143, 407.071428571429, 22.0714285714286, 0.0 mins in average; What would be the PHQ-4 429.285714285714 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13658.6666666667. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.5, 0.0, 311.333333333333, 21.8333333333333, 0.0 mins in average; What would be the PHQ-4 333.166666666667 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11881.6666666667. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 91.8888888888889, 0.0, 353.777777777778, 31.8888888888889, 0.0 mins in average; What would be the PHQ-4 385.666666666667 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 7822.07142857143. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.4285714285714, 0.0, 319.857142857143, 18.7142857142857, 0.0 mins in average; What would be the PHQ-4 338.571428571429 score?",
+        "output": "The predicted PHQ-4 anxiety score is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10137.7142857143. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.3571428571429, 0.357142857142857, 416.5, 15.6428571428571, 0.0 mins in average; What would be the PHQ-4 432.5 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 6540.85714285714. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.2142857142857, 0.0, 532.785714285714, 39.9285714285714, 0.0 mins in average; What would be the PHQ-4 572.928571428571 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 18321.3571428571. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.8333333333333, 0.583333333333333, 378.166666666667, 28.8333333333333, 0.0 mins in average; What would be the PHQ-4 407.583333333333 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8950.07142857143. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.9285714285714, 0.214285714285714, 438.5, 28.6428571428571, 0.0 mins in average; What would be the PHQ-4 467.357142857143 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11091.0714285714. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.0714285714286, 0.214285714285714, 463.928571428571, 20.5, 0.0 mins in average; What would be the PHQ-4 484.642857142857 score?",
+        "output": "The predicted PHQ-4 anxiety score is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8460.71428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.0, 0.266666666666667, 270.666666666667, 17.3333333333333, 0.0 mins in average; What would be the PHQ-4 288.266666666667 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10697.6428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.7692307692308, 0.153846153846154, 429.692307692308, 14.4615384615385, 0.0 mins in average; What would be the PHQ-4 444.307692307692 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13477.4615384615. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.3636363636364, 0.727272727272727, 387.454545454545, 32.9090909090909, 0.0 mins in average; What would be the PHQ-4 421.545454545455 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8060.66666666667. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 47.0, 14.4545454545455, 256.181818181818, 288.181818181818, 0.0 mins in average; What would be the PHQ-4 558.818181818182 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10474.1111111111. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 90.2222222222222, 1.44444444444444, 395.333333333333, 42.3333333333333, 3.44444444444444 mins in average; What would be the PHQ-4 442.555555555556 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 15273.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 91.5, 0.0, 516.0, 49.5, 0.0 mins in average; What would be the PHQ-4 565.5 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9341.85714285714. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.4615384615385, 0.307692307692308, 383.230769230769, 22.9230769230769, 0.0 mins in average; What would be the PHQ-4 406.846153846154 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13302.5714285714. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.0714285714286, 2.28571428571429, 419.928571428571, 25.6428571428571, 0.0 mins in average; What would be the PHQ-4 448.214285714286 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11087.9285714286. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 97.0714285714286, 0.214285714285714, 525.714285714286, 16.2142857142857, 0.0 mins in average; What would be the PHQ-4 542.142857142857 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11470.9090909091. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.7777777777778, 0.0, 474.777777777778, 20.5555555555556, 0.0 mins in average; What would be the PHQ-4 495.333333333333 score?",
+        "output": "The predicted PHQ-4 anxiety score is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 14410.6428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.6923076923077, 1.30769230769231, 407.615384615385, 32.3846153846154, 0.0 mins in average; What would be the PHQ-4 442.846153846154 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11141.1428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.2307692307692, 0.692307692307692, 392.692307692308, 34.0769230769231, 0.0 mins in average; What would be the PHQ-4 427.461538461538 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 15391.8461538462. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.6666666666667, 0.5, 363.25, 23.5, 0.0 mins in average; What would be the PHQ-4 387.25 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10652.7777777778. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.8888888888889, 0.0, 422.444444444444, 17.5555555555556, 0.0 mins in average; What would be the PHQ-4 440.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10717.9285714286. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.5, 0.5, 438.416666666667, 24.75, 0.0 mins in average; What would be the PHQ-4 464.75 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13993.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.0, 0.0, 507.0, 25.0, 0.0 mins in average; What would be the PHQ-4 532.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 21251.5833333333. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.2, 0.1, 497.1, 30.3, 0.0 mins in average; What would be the PHQ-4 527.5 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13500.6666666667. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.6, 1.0, 470.0, 26.4, 0.0 mins in average; What would be the PHQ-4 498.8 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8640.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.8461538461538, 0.692307692307692, 427.307692307692, 22.8461538461538, 0.0 mins in average; What would be the PHQ-4 454.076923076923 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 6073.46153846154. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.8181818181818, 0.454545454545455, 446.909090909091, 30.6363636363636, 0.0 mins in average; What would be the PHQ-4 478.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8468.66666666667. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 97.0, 0.333333333333333, 496.0, 16.3333333333333, 0.0 mins in average; What would be the PHQ-4 512.666666666667 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11649.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.5, 0.0, 504.5, 18.5, 0.0 mins in average; What would be the PHQ-4 523.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12841.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.3571428571429, 1.28571428571429, 480.0, 39.7142857142857, 0.0 mins in average; What would be the PHQ-4 521.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9830.33333333333. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.6666666666667, 0.0, 395.222222222222, 32.8888888888889, 0.0 mins in average; What would be the PHQ-4 428.111111111111 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 5362.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.0, 0.0, 322.5, 13.0, 0.0 mins in average; What would be the PHQ-4 335.5 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 20989.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 91.5, 2.0, 390.5, 36.0, 0.0 mins in average; What would be the PHQ-4 428.5 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 14147.0714285714. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.8571428571429, 0.285714285714286, 408.214285714286, 16.5714285714286, 0.0 mins in average; What would be the PHQ-4 425.071428571429 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11228.4444444444. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.0, 1.125, 440.875, 40.125, 0.0 mins in average; What would be the PHQ-4 482.125 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13169.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 87.0, 0.0, 410.5, 63.0, 0.0 mins in average; What would be the PHQ-4 473.5 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11440.2857142857. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.0, 0.0, 399.25, 23.625, 0.0 mins in average; What would be the PHQ-4 422.875 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11278.6428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 91.0769230769231, 0.692307692307692, 452.153846153846, 43.3076923076923, 0.0 mins in average; What would be the PHQ-4 496.153846153846 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12895.1428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 91.5, 0.428571428571429, 327.571428571429, 28.9285714285714, 0.285714285714286 mins in average; What would be the PHQ-4 357.214285714286 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13862.2307692308. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.1538461538462, 0.461538461538462, 507.230769230769, 38.3076923076923, 0.0 mins in average; What would be the PHQ-4 546.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11744.7142857143. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.2142857142857, 0.0714285714285714, 253.785714285714, 22.7142857142857, 0.0 mins in average; What would be the PHQ-4 276.571428571429 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9084.83333333333. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.0, 0.0, 410.666666666667, 17.0, 0.0 mins in average; What would be the PHQ-4 430.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 14490.7142857143. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.2307692307692, 0.0769230769230769, 399.615384615385, 19.2307692307692, 0.0 mins in average; What would be the PHQ-4 420.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 10287.5714285714. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.0714285714286, 0.571428571428571, 502.5, 33.0, 0.0 mins in average; What would be the PHQ-4 537.357142857143 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13701.3333333333. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.5, 0.666666666666667, 527.833333333333, 26.0, 0.0 mins in average; What would be the PHQ-4 554.5 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 7957.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 90.5, 0.0, 441.0, 48.5, 0.0 mins in average; What would be the PHQ-4 489.5 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 14249.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.0769230769231, 0.615384615384615, 425.923076923077, 16.7692307692308, 0.0 mins in average; What would be the PHQ-4 443.307692307692 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12614.8571428571. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 97.0769230769231, 0.615384615384615, 466.384615384615, 13.5384615384615, 0.0 mins in average; What would be the PHQ-4 480.538461538462 score?",
+        "output": "The predicted PHQ-4 anxiety score is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8039.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.6666666666667, 2.33333333333333, 426.333333333333, 25.0, 0.0 mins in average; What would be the PHQ-4 453.666666666667 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 13508.8571428571. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.25, 0.0833333333333333, 467.583333333333, 18.1666666666667, 0.0 mins in average; What would be the PHQ-4 485.833333333333 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 7594.0. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.0, 0.0, 470.666666666667, 24.0, 0.0 mins in average; What would be the PHQ-4 494.666666666667 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8428.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.6923076923077, 0.307692307692308, 351.461538461538, 15.0769230769231, 0.0 mins in average; What would be the PHQ-4 367.153846153846 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11995.0714285714. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.3846153846154, 0.0769230769230769, 441.846153846154, 26.6923076923077, 0.0 mins in average; What would be the PHQ-4 470.538461538462 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 11664.3. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 91.6666666666667, 0.0, 414.777777777778, 39.3333333333333, 0.0 mins in average; What would be the PHQ-4 454.111111111111 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 15992.5555555556. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.5555555555556, 0.0, 520.333333333333, 31.4444444444444, 0.0 mins in average; What would be the PHQ-4 551.777777777778 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 8393.35714285714. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 90.5714285714286, 0.285714285714286, 418.928571428571, 42.0714285714286, 0.0 mins in average; What would be the PHQ-4 461.285714285714 score?",
+        "output": "The predicted PHQ-4 anxiety score is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 15960.6428571429. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.9285714285714, 0.642857142857143, 429.285714285714, 23.7857142857143, 0.0 mins in average; What would be the PHQ-4 454.071428571429 score?",
+        "output": "The predicted PHQ-4 anxiety score is 3."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 3055.78571428571. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.2857142857143, 0.0, 466.428571428571, 18.0, 0.0 mins in average; What would be the PHQ-4 484.428571428571 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 7119.44444444444. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.2222222222222, 3.22222222222222, 479.555555555556, 21.3333333333333, 0.0 mins in average; What would be the PHQ-4 504.111111111111 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 15252.2857142857. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.0714285714286, 0.428571428571429, 440.571428571429, 28.4285714285714, 0.0 mins in average; What would be the PHQ-4 470.571428571429 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 6001.57142857143. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.2857142857143, 1.5, 432.071428571429, 21.7857142857143, 0.0 mins in average; What would be the PHQ-4 455.357142857143 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 19272.2. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 94.4, 0.8, 471.0, 27.2, 0.0 mins in average; What would be the PHQ-4 499.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 16059.7142857143. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 92.5714285714286, 0.5, 414.357142857143, 32.9285714285714, 0.0 mins in average; What would be the PHQ-4 449.214285714286 score?",
+        "output": "The predicted PHQ-4 anxiety score is 0."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9585.4. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 93.25, 0.25, 412.5, 28.25, 0.0 mins in average; What would be the PHQ-4 441.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9893.33333333333. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 95.4444444444444, 0.0, 480.222222222222, 23.0, 0.0 mins in average; What would be the PHQ-4 503.222222222222 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 6960.5. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 89.5384615384615, 0.307692307692308, 376.153846153846, 43.4615384615385, 0.0 mins in average; What would be the PHQ-4 419.923076923077 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 12891.4. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.75, 0.5, 494.5, 16.25, 0.0 mins in average; What would be the PHQ-4 511.25 score?",
+        "output": "The predicted PHQ-4 anxiety score is 2."
+    },
+    {
+        "instruction": "You are a personalized healthcare agent trained to predict PHQ-4 anxiety which ranges from 0 to 4 based on physiological data and user information.",
+        "input": "The recent 14-days sensor readings show: [Steps] is 9544.33333333333. [Sleep] efficiency, duration the user stayed in bed after waking up, duration the user spent to fall asleep, duration the user stayed awake but still in bed, duration the user spent to fall asleep are 96.3333333333333, 0.777777777777778, 387.111111111111, 15.1111111111111, 0.0 mins in average; What would be the PHQ-4 403.0 score?",
+        "output": "The predicted PHQ-4 anxiety score is 1."
+    }
+]

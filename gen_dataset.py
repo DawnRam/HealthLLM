@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 
 MODE = "train"
-DATA = "GLOBEM" # "PMData", "GLOBEM", "AW_FB", "LifeSnaps"
+DATA = "PMData" # "PMData", "GLOBEM", "AW_FB", "LifeSnaps"
 
 
 def avg(_list):
@@ -335,8 +335,8 @@ if MODE == "train":
             'p1': [-1, -1, 'N/A', 'N/A', 'N/A']
         }
         
-        DATA_PATH = "/home/cyang/Data/Healthcare/pmdata"
-        SUBTASK = "sleep_quality" # ['sleep_quality', 'stress', 'readiness', 'fatigue']:
+        DATA_PATH = "/root/workspace/cv3ulf4p420c73fli4a0/Data"
+        SUBTASK = "stress" # ['sleep_quality', 'stress', 'readiness', 'fatigue']:
         final_data = []
         print("[INFO] Subtask:", SUBTASK)
         for dir1 in tqdm(os.listdir(DATA_PATH)):

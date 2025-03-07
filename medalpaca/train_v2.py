@@ -21,10 +21,173 @@ from transformers import (
     Trainer,
     TrainingArguments,
 )
-os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
+from sklearn.metrics import mean_absolute_error
+import re
+import json
+from eval import *
+from inferer import Inferer  # 导入Inferer类
+import numpy as np
+from tqdm import tqdm
+
+sampling = {
+    "do_sample" : True,
+    "top_k": 50, 
+    "num_beams": 1,
+    "max_new_tokens": 128, 
+    "early_stopping": True,
+    "temperature": 0.4,
+    "top_p": 0.9
+}
 
 cache_dir = "/root/workspace/cv3ulf4p420c73fli4a0/cache"
 
+def strip_special_chars(text: str) -> str:
+    """
+    删除特殊字符和多余的空白
+    """
+    # 移除特殊字符
+    text = re.sub(r'[^A-Za-z0-9\s.,-]', '', text)
+    # 移除多余空白
+    text = ' '.join(text.split())
+    return text.strip()
+
+def starts_with_capital_letter(text: str) -> bool:
+    """
+    检查文本是否以大写字母开头
+    """
+    if not text:
+        return False
+    return text[0].isupper()
+
+def extract_sri_value(response: str) -> float:
+    """
+    从响应中提取SRI值
+    
+    Args:
+        response: 模型的响应文本
+    
+    Returns:
+        float: 提取的SRI值
+        
+    Raises:
+        ValueError: 当无法提取有效的SRI值时
+    """
+    # 清理文本
+    cleaned_response = strip_special_chars(response)
+    
+    try:
+        # 尝试直接转换为float
+        return float(cleaned_response)
+    except ValueError:
+        # 如果直接转换失败，尝试使用正则表达式提取数字
+        match = re.search(r'(\d+\.?\d*)', cleaned_response)
+        if match:
+            return float(match.group(1))
+        raise ValueError(f"无法从响应中提取有效的SRI值: {response}")
+
+def evaluate_model(inferer, eval_data, ntries=3, sampling=None):
+    """
+    评估模型性能
+    
+    Args:
+        inferer: 模型推理器
+        eval_data: 评估数据
+        ntries: 重试次数
+        sampling: 采样策略参数
+    
+    Returns:
+        list: 包含预测结果的列表
+    """
+    predictions = []
+    
+    # 使用tqdm显示进度
+    pbar = tqdm(eval_data)
+    pbar.set_description_str("Evaluating")
+    
+    for i, item in enumerate(pbar):
+        input_text = item["input"]
+        ground_truth_sri = item["output"]
+        
+        # 多次尝试获取有效响应
+        for j in range(ntries):
+            response = inferer(
+                instruction="Based on the following data, output only a single SRI numerical value. Example: 3.5",
+                input=input_text,
+                **sampling if sampling else {}
+            )
+            
+            # 清理响应文本
+            cleaned_response = strip_special_chars(response)
+            
+            # 尝试提取SRI值
+            try:
+                sri_value = extract_sri_value(cleaned_response)
+                pbar.set_postfix_str("")
+                break
+            except ValueError:
+                pbar.set_postfix_str(f"Invalid output, retrying {j+1}/{ntries}")
+                if j == ntries - 1:  # 如果是最后一次尝试
+                    sri_value = None
+        
+        # 记录预测结果
+        predictions.append({
+            "input": input_text,
+            "response": response,
+            "cleaned_response": cleaned_response,
+            "predicted_sri": sri_value,
+            "ground_truth_sri": float(ground_truth_sri)
+        })
+        
+        # 实时显示当前评估指标
+        if sri_value is not None:
+            current_mse = np.mean([
+                (p["predicted_sri"] - p["ground_truth_sri"])**2 
+                for p in predictions 
+                if p["predicted_sri"] is not None
+            ])
+            current_mae = np.mean([
+                abs(p["predicted_sri"] - p["ground_truth_sri"])
+                for p in predictions 
+                if p["predicted_sri"] is not None
+            ])
+            pbar.set_description(f"MSE: {current_mse:.4f}, MAE: {current_mae:.4f}")
+    
+    return predictions
+
+def calculate_metrics(predictions):
+    """
+    计算评估指标
+    
+    Args:
+        predictions: 预测结果列表
+    
+    Returns:
+        dict: 包含各项评估指标的字典
+    """
+    valid_predictions = [p for p in predictions if p["predicted_sri"] is not None]
+    
+    if not valid_predictions:
+        return {
+            "mse": float('nan'),
+            "mae": float('nan'),
+            "valid_ratio": 0.0
+        }
+    
+    mse = np.mean([
+        (p["predicted_sri"] - p["ground_truth_sri"])**2 
+        for p in valid_predictions
+    ])
+    
+    mae = np.mean([
+        abs(p["predicted_sri"] - p["ground_truth_sri"])
+        for p in valid_predictions
+    ])
+    
+    return {
+        "mse": float(mse),
+        "mae": float(mae),
+        "valid_ratio": len(valid_predictions) / len(predictions)
+    }
 
 def main(
     model: str, # e.g. "decapoda-research/llama-7b-hf"
@@ -41,7 +204,7 @@ def main(
     lora_target_modules: Tuple[str] = ("q_proj", "v_proj"),
     per_device_batch_size: int = 2,
     num_epochs: int = 3,
-    learning_rate: float = 2e-5,
+    learning_rate: float = 2e-4,
     global_batch_size: int = 128,
     output_dir: str = "./output",
     save_total_limit: int = 3,
@@ -281,11 +444,58 @@ def main(
 
     # finally, train
     trainer.train()
-
-
-
+    # Save the model
     model.save_pretrained(output_dir)
 
+    # Evaluate and save predictions
+    if val_set_size > 0:
+
+        inferer = Inferer(
+            model=model,
+            tokenizer=tokenizer,
+            prompt_template=prompt_template,
+            base_model=None,
+            model_max_length=model_max_length,
+            load_in_8bit=False,
+            torch_dtype=torch.float16
+        )
+
+        # 设置采样策略
+        sampling_config = {
+            "max_new_tokens": 10,
+            "temperature": 0.1,
+            "top_p": 0.1,
+            "top_k": 1,
+            "num_beams": 1,
+            "do_sample": False,
+            "repetition_penalty": 1.0
+        }
+        
+        # 评估模型
+        predictions = evaluate_model(
+            inferer=inferer,
+            eval_data=data["test"],
+            ntries=3,
+            sampling=sampling_config
+        )
+        
+        # 计算评估指标
+        metrics = calculate_metrics(predictions)
+        
+        # 打印评估结果
+        print("\nEvaluation Results:")
+        print(f"MSE: {metrics['mse']:.4f}")
+        print(f"MAE: {metrics['mae']:.4f}")
+        print(f"Valid Predictions: {metrics['valid_ratio']*100:.1f}%")
+        
+        # 保存预测结果和指标
+        results = {
+            "predictions": predictions,
+            "metrics": metrics
+        }
+        
+        with open(os.path.join(output_dir, "evaluation_results.json"), "w") as f:
+            json.dump(results, f, indent=2)
 
 if __name__ == "__main__":
     fire.Fire(main)

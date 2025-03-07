@@ -21,10 +21,46 @@ from transformers import (
     Trainer,
     TrainingArguments,
 )
-os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
+from sklearn.metrics import mean_absolute_error
+import re
+import json
+from eval import *
+from inferer import Inferer  # 导入Inferer类
+
+sampling = {
+    "do_sample" : True,
+    "top_k": 50, 
+    "num_beams": 1,
+    "max_new_tokens": 128, 
+    "early_stopping": True,
+    "temperature": 0.4,
+    "top_p": 0.9
+}
 
 cache_dir = "/root/workspace/cv3ulf4p420c73fli4a0/cache"
 
+def extract_score(text: str) -> float:
+    """
+    从预测文本中提取数值分数
+    
+    Args:
+        text (str): 预测文本，例如 "The predicted PHQ-4 anxiety score is 1."
+        
+    Returns:
+        float: 提取的分数值
+    """
+    # 方法1：使用正则表达式
+    pattern = r"score is (\d+\.?\d*)"
+    match = re.search(pattern, text)
+    if match:
+        return float(match.group(1))
+    
+    # 方法2：如果格式固定，可以使用简单的字符串处理
+    try:
+        score = float(text.split("score is ")[-1].strip("."))
+        return score
+    except:
+        raise ValueError(f"无法从文本中提取分数: {text}")
 
 def main(
     model: str, # e.g. "decapoda-research/llama-7b-hf"
@@ -281,10 +317,70 @@ def main(
 
     # finally, train
     trainer.train()
-
-
-
+    # Save the model
     model.save_pretrained(output_dir)
+
+    # Evaluate and save predictions
+    if val_set_size > 0:
+        # 初始化Inferer
+        inferer = Inferer(
+            model=model,
+            tokenizer=tokenizer,
+            prompt_template=prompt_template,
+            base_model=None,
+            model_max_length=model_max_length,
+            load_in_8bit=train_in_8bit,
+            torch_dtype=torch.float16 if any([use_lora, bf16]) else torch.float32,
+            peft=use_lora
+        )
+
+        # 进行推理
+        predictions = []
+        predicted_sris = []
+        ground_truth_sris = []
+        
+        for example in data["test"]:
+            input_text = example["input"]
+            ground_truth_sri = example["output"]  # 获取真实的SRI值
+            response = inferer(input=input_text)
+
+            # 修改提取SRI值的正则表达式
+            score = extract_score(response)
+            ground_truth_sri = extract_score(ground_truth_sri)
+
+            predictions.append({
+                "input": input_text, 
+                "response": response, 
+                "predicted_sri": score,
+                "ground_truth_sri": float(ground_truth_sri)
+            })
+            
+            if score is not None and ground_truth_sri is not None:
+                predicted_sris.append(score)
+                ground_truth_sris.append(ground_truth_sri)
+
+        # 计算并打印MAE
+        if predicted_sris and ground_truth_sris:
+            mae = mean_absolute_error(ground_truth_sris, predicted_sris)
+            print(f"\n=== Evaluation Results ===")
+            print(f"Number of valid predictions: {len(predicted_sris)}")
+            print(f"Mean Absolute Error (MAE): {mae:.4f}")
+            
+            # 将评估指标添加到预测结果中
+            predictions.append({
+                "metrics": {
+                    "mae": mae,
+                    "num_predictions": len(predicted_sris)
+                }
+            })
+
+        # 保存推理结果
+        predictions_output_path = os.path.join(output_dir, "predictions.json")
+        with open(predictions_output_path, "w") as f:
+            json.dump(predictions, f, indent=4)
+
+        print(f"\nPredictions saved to {predictions_output_path}")
+
 
 
 if __name__ == "__main__":
